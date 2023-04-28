@@ -30,3 +30,26 @@
     filter: brightness(40%) !important;
     z-index: 10;
 }
+
+.titulo{
+    box-sizing: content-box;
+    margin: 0px auto !important;
+
+}
+
+.tarj{
+    margin-inline-start: -150px;
+}
+
+.btns{
+    height: 10%;
+    margin-top: 5%;
+    
+}
+
+.btnCard{
+    padding: 0%;
+    
+    height: 100%;
+    font-size: 12px !important;
+}
