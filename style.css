@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+   background-color: rgb(64, 73, 73) !important;
+}
+    
+#navbarNav{
+   justify-content: end !important;
+}
+
+#carouselExampleSlidesOnly{
+    z-index: 0 !important;
+}
+
+#textoCarr{
+    z-index: 1;
+    margin-top: 15%;
+    margin-left: 42%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    object-fit:cover!important;
+    object-position: center !important;
+    height: 610px!important;
+    filter: brightness(40%) !important;
+    z-index: 10;
+}
