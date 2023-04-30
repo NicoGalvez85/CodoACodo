@@ -46,7 +46,7 @@
 }
 
 .titulo1 h6{
-    font-size: smaller;
+    font-size: 12px;
 }
 
 .titulo2 h2{
@@ -103,4 +103,16 @@
 
 .parraf2{
     font-size: smaller;
+}
+
+#exampleFormControlTextarea1{
+    font-size: larger;
+}
+
+#subButton{
+    background-color: rgb(102, 177, 3);
+}
+
+#passwordHelpBlock{
+    display: flex !important;
 }
