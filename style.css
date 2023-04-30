@@ -59,8 +59,7 @@
 
 .btns{
     height: 10%;
-    margin-top: 5%;
-    
+    margin-top: 5%;    
 }
 
 .btnCard{
@@ -86,7 +85,6 @@
     background-image: url(img/honolulu.jpg);
     background-size: cover;
     border: 1px solid rgb(0, 153, 255);
-
 }
 
 #texto2{
@@ -115,4 +113,18 @@
 
 #passwordHelpBlock{
     display: flex !important;
+    font-size: 12px;
+}
+
+footer{
+    background-color: rgb(21, 67, 96);
+}
+
+footer a{
+    display: block;
+    width: 75px !important;
+    padding-top: 5px;
+    color: aliceblue;
+    font-size: 14px;
+    text-decoration: none;
 }
