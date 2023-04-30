@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>TP Integrador</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark" id="nav">
@@ -41,94 +42,108 @@
       </div>
     </nav>
   </div>
+  <div id="textoCarr" class="position-absolute text-light w-50 ">
+    <h2 class="text-end">Conf Bs As</h2>
+    <p class="text-end"> Bs As llega por primera vez a la argentina. Un evento para compartir con<br> nuestra
+      comunidad el conocimiento y la experiencia de los expertos que<br> están creando el futuro de internet.
+      Ven a conocer a miembros del<br> evento, a otros estudiantes de Codo a Codo, y a los oradores de primer<br>
+      nivel
+      que tenemos para ti. Te Esperamos!</p>
+    <div class="d-flex justify-content-end">
+      <button type="button" class="btn btn-outline-light btn-lg me-3">Quiero ser orador</button>
+      <button type="button" class="btn btn-success btn-lg">Comprar tickets</button>
+    </div>
+  </div>
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div id="textoCarr" class="position-absolute text-light w-50 ">
-          <h2 class="text-end"> Conf Bs As</h2>
-          <p class="text-end"> Bs As llega por primera vez a la argentina. Un evento para compartir con<br> nuestra
-            comunidad el conocimiento y la experiencia de los expertos que<br> están creando el futuro de internet.
-            Ven a conocer a miembros del<br> evento, a otros estudiantes de Codo a Codo, y a los oradores de primer<br>
-            nivel
-            que tenemos para ti. Te Esperamos!</p>
-          <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-outline-light btn-lg me-3">Quiero ser orador</button>
-            <button type="button" class="btn btn-success btn-lg">Comprar tickets</button>
-          </div>
-        </div>
         <img src="img/ba1.jpg" class="d-block w-100 image" alt="...">
       </div>
       <div class="carousel-item">
-        <div id="textoCarr" class="position-absolute text-light w-50 ">
-          <h2 class="text-end">Conf Bs As</h2>
-          <p class="text-end"> Bs As llega por primera vez a la argentina. Un evento para compartir con<br> nuestra
-            comunidad el conocimiento y la experiencia de los expertos que<br> están creando el futuro de internet.
-            Ven a conocer a miembros del<br> evento, a otros estudiantes de Codo a Codo, y a los oradores de primer<br>
-            nivel
-            que tenemos para ti. Te Esperamos!</p>
-        </div>
         <img src="img/ba2.jpg" class="d-block w-100 image" alt="...">
       </div>
       <div class="carousel-item">
-        <div id="textoCarr" class="position-absolute text-light w-50 ">
-          <h2 class="text-end">Conf Bs As</h2>
-          <p class="text-end"> Bs As llega por primera vez a la argentina. Un evento para compartir con<br> nuestra
-            comunidad el conocimiento y la experiencia de los expertos que<br> están creando el futuro de internet.
-            Ven a conocer a miembros del<br> evento, a otros estudiantes de Codo a Codo, y a los oradores de primer<br>
-            nivel
-            que tenemos para ti. Te Esperamos!</p>
-        </div>
         <img src="img/ba3.jpg" class="d-block w-100 image" alt="...">
       </div>
     </div>
   </div>
-  <div class="pt-3 d-grid">
-    <div class="titulo">
+  <div id="titleCont" class="pt-2 d-grid">
+    <div class="titulo1">
       <h6>CONOCE A LOS</h6>
     </div>
-    <div class="titulo">
-      <h2><B>ORADORES</B> </h2>
+    <div class="titulo2">
+      <h2 class="">ORADORES</h2>
     </div>
   </div>
-  <div class="d-flex justify-content-evenly">
+  <div class="d-flex justify-content-evenly mt-">
     <div class="card" style="width: 18rem;">
       <img src="img/steve.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <div class="d-flex btns">
-          <a href="#" class="d-flex justify-content-center align-items-center btn btn-secondary btn-sm w-25 me-2  btnCard"><b>Negocios</b></a>
-          <a href="#" class="d-flex justify-content-center align-items-center btn btn-danger btn-sm w-25  btnCard"><b>Startups</b></a>
+          <a href="#"
+            class="d-flex justify-content-center align-items-center btn btn-warning btn-sm w-25 me-1  btnCard"><b>JavaScript</b></a>
+          <a href="#"
+            class="d-flex justify-content-center align-items-center btn btn-primary btn-sm btnReact  btnCard"><b>React</b></a>
         </div>
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate at maxime odit natus
+          neque iusto non voluptate
+          tempore dolorum? Ad esse repellat aliquam, consectetur fuga minus quia hic eos suscipit.</p>
       </div>
     </div>
     <div class="card tarj" style="width: 18rem;">
       <img src="img/bill.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <div class="d-flex btns">
-          <a href="#" class="d-flex justify-content-center align-items-center btn btn-secondary btn-sm w-25 me-2  btnCard"><b>Negocios</b></a>
-          <a href="#" class="d-flex justify-content-center align-items-center btn btn-danger btn-sm w-25  btnCard"><b>Startups</b></a>
+          <a href="#"
+            class="d-flex justify-content-center align-items-center btn btn-warning btn-sm w-25 me-1  btnCard"><b>JavaScript</b></a>
+          <a href="#"
+            class="d-flex justify-content-center align-items-center btn btn-primary btn-sm btnReact btnCard"><b>React</b></a>
         </div>
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
+        <h5 class="card-title">Bill Gates</h5>
+        <p class="card-text cardText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis incidunt odit, illo quis,
+          non
+          exercitationem perspiciatis quod doloremque, quidem atque numquam excepturi dolore nesciunt rerum recusandae!
+          Libero tenetur quas alias.</p>
       </div>
     </div>
     <div class="card tarj" style="width: 18rem;">
       <img src="img/ada.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <div class="d-flex btns">
-          <a href="#" class="d-flex justify-content-center align-items-center btn btn-secondary btn-sm w-25 me-2  btnCard"><b>Negocios</b></a>
-          <a href="#" class="d-flex justify-content-center align-items-center btn btn-danger btn-sm w-25  btnCard"><b>Startups</b></a>
+          <a href="#"
+            class="d-flex justify-content-center align-items-center btn btn-secondary btn-sm w-25 me-1  btnCard"><b>Negocios</b></a>
+          <a href="#"
+            class="d-flex justify-content-center align-items-center btn btn-danger btn-sm w-25  btnCard"><b>Startups</b></a>
         </div>
-        
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+        <h5 class="card-title">Ada Lovelace</h5>
+        <p class="card-text cardText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eos voluptatem, velit aut
+          culpa asperiores
+          distinctio itaque voluptatum dolorem aliquid labore architecto, sed quia quam optio illo id, molestiae illum.
+        </p>
       </div>
     </div>
   </div>
-  
+  <div>
+
+  </div>
+  <div id="secPlaya" class="d-flex pt-4">
+    <div id="imgHono" class="w-50">
+    </div>
+    <div id="texto2" class="w-50 text-light">
+      <h3 class="pt-3 ps-3">Bs As - Octubre</h3>
+      <p class="ps-3 pe-3 parraf2">Buenos aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la
+        más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área en la costa sureste
+      de la isla de Ohau, la ciudad y el condado de Honolulu han formado una ciudad-
+    Condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie)</p>
+    <div class="ps-3">
+      <button type="button" class="btn btn-outline-light btn-sm">Conocé más</button>
+    </div>
+    </div>
+  </div>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

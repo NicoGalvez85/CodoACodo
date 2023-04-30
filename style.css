@@ -31,10 +31,26 @@
     z-index: 10;
 }
 
-.titulo{
-    box-sizing: content-box;
-    margin: 0px auto !important;
+#titleCont{
+    height: 70px;
+    padding: -5px !important;
+}
 
+.titulo1 , .titulo2{
+    box-sizing: content-box;
+    margin: 0px auto ;
+}
+
+.titulo1{
+    margin-bottom: -10px;
+}
+
+.titulo1 h6{
+    font-size: smaller;
+}
+
+.titulo2 h2{
+    font-size: 30px;
 }
 
 .tarj{
@@ -52,4 +68,39 @@
     
     height: 100%;
     font-size: 12px !important;
+}
+
+.btnReact{
+    width: 15%;
+}
+
+.cardText{
+    font-size: small ;
+}
+
+#secPlaya{
+    height: 450px;
+}
+
+#imgHono{
+    background-image: url(img/honolulu.jpg);
+    background-size: cover;
+    border: 1px solid rgb(0, 153, 255);
+
+}
+
+#texto2{
+    background-color: rgb(66, 63, 63);
+}
+
+
+.textImg{
+    
+    padding-inline: 0px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.parraf2{
+    font-size: smaller;
 }
