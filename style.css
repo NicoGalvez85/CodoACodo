@@ -107,10 +107,6 @@
     font-size: larger;
 }
 
-#subButton{
-    background-color: rgb(102, 177, 3);
-}
-
 #passwordHelpBlock{
     display: flex !important;
     font-size: 12px;
@@ -127,4 +123,13 @@ footer a{
     color: aliceblue;
     font-size: 14px;
     text-decoration: none;
+}
+.opciones{
+    width: 33%;
+    height: 190px;
+    border: 1px solid blue;
+}
+
+#pagar{
+    background-color:rgb(190, 224, 243);
 }
